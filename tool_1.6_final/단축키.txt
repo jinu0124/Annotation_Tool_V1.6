@@ -1,0 +1,58 @@
+[ 단축키 ]
+1 ~ 4 :  모드 선택
+F1 ~ F5 : 이미지 처리
+
+W : 이전 이미지
+E : 다음 이미지
+
+A : Parameter 1 Down
+S : Parameter 1 Up
+D : Parameter 2 Down
+F : Parameter 2 Up
+R : 원본 이미지 출력 (새로고침)
+
+Ctrl + Q : 프로그램 종료
+Ctrl + S : json file 저장
+Ctrl + Shift + S : 다른 이름이로 Json file 저장
+Ctrl + L : image file 불러오기
+Ctrl + J : json file 불러오기
+Ctrl + Mouse Double Click : 해당 Polygon 삭제
+Ctrl + Z : Undo
+Ctrl + M : Json 파일 Merging Func
+
+[ 모드 ]
+Mode 1 : 선택 / 탐색
+	- 화면을 드래그하여 이동
+	- Ctrl + 더블클릭 으로 Polygon 삭제
+	- 마우스 휠 : Zoom in/out
+
+Mode 2 : Polygon 그리기
+	- Attribute List 에 선택된 Polygon 을 그린다.
+	- ESC 로 새로고침
+	- 마우스 클릭으로 Polygon 그리기 가능
+
+Mode 3 : Magic Wand
+	- 마우스 클릭으로 Magic Wand 선택
+	- 선택된 Mask 는 Mode 를 변경해도 사라지지 않는다. (ESC 로 새로고침)
+	( Mode 4 에서 Mask 편집 가능)
+	- SHIFT + 클릭 : 여러 구역 선택 가능 (bitwise or)
+	- ALT + 클릭 : 현재 Mask 에서 해당 선택 구역 제거
+	- ALT + SHIFT 클릭 : 과거 선택 영역 내에서만 선택 (bitwise and)
+	- Ctrl + 마우스 휠 :	 감도 (Tolerance) 조정
+
+Mode 4 : Paint
+	- Shift 로 Paint / Erase 변경 가능
+	- Ctrl + 마우스 휠 : 브러시 크기 조정
+	- 선택된 Mask 는 Mode 를 변경해도 사라지지 않는다. (ESC 로 새로고침)
+
+
+[ 이미지 처리 ]
+F1 : 원본 이미지 출력 (Parameter 없음)
+
+F2 : 회색조, 밝기 조정 이미지 출력 (Parameter 없음)
+
+F3 : 균열 탐색 Opening 이미지 출력 (Parameter 1 으로 강도 조절 가능)
+
+F4 ; 균열 탐색 이미지 출력 (Parameter 1, 2 으로 강도 조절 가능)
+
+F5 : 윤곽 검출 이미지 출력 (Parameter 1, 2 으로 강도 조절 가능)

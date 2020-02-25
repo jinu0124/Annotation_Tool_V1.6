@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+   <file>./icon/calibration.png</file>
+   <file>./icon/cancel_json.png</file>
+   <file>./icon/contour.png</file>
+   <file>./icon/exit.png</file>
+   <file>./icon/hand.png</file>
+   <file>./icon/icon.png</file>
+   <file>./icon/import_json.png</file>
+   <file>./icon/load.png</file>
+   <file>./icon/merge_json.png</file>
+   <file>./icon/next.png</file>
+   <file>./icon/paint.png</file>
+   <file>./icon/polygon.png</file>
+   <file>./icon/prev.png</file>
+   <file>./icon/save.png</file>
+   <file>./icon/saveas.png</file>
+   <file>./icon/undo.png</file>
+   <file>./icon/icon.png</file>
+</qresource>
+</RCC>
